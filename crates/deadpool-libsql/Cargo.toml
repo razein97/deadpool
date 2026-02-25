@@ -35,11 +35,11 @@ wasm = ["libsql/wasm"]
 
 [dependencies]
 async-executor-trait = { version = "2.1", optional = true }
-bytes = "1.10.1"
+bytes = "1.11.1"
 deadpool = { path = "../deadpool", version = "0.13.0", default-features = false, features = [
     "managed",
 ] }
-libsql = { version = "0.9.18", default-features = false }
+libsql = { version = "0.9.29", default-features = false }
 serde = { package = "serde", version = "1.0.103", features = [
     "derive",
 ], optional = true }
